@@ -14,10 +14,10 @@ How to use
 
 2. Add to /etc/hosts maping of nodes, like
 
-.. sourcecode:: console
    111.111.111.111 machine1
+   
    222.222.222.222 machine2
-..
+
 
 3. Run script like
 
