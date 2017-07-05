@@ -25,7 +25,6 @@ class Producer(threading.Thread):
     daemon = True
 
     def run(self):
-        import pdb; pdb.set_trace()
         producer = KafkaProducer(bootstrap_servers=self.kafka_host)
 
         while True:
